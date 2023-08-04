@@ -1,0 +1,200 @@
+html {
+  font-size: 14px;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/464/040/original/vector-dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+nav ul li {
+        display: inline-block;
+        line-height: 50px;
+        margin-left: 30px;
+        background-color:saddlebrown;
+        border-radius: 10px; 
+        color:white; 
+        font-size:20px; 
+        
+
+    }
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.DogFoodTable {
+    display: inline-block;
+    border: 5px solid;
+    background-color: white;
+}
+
+.DogFoodsList {
+   border-bottom:dashed; 
+   
+}
+
+.DogFoodsList > td {
+    justify-content:center; 
+    border-right:dashed; 
+    align-content:center; 
+}
+
+.DogFoodsList > td:last-child{
+    border-right: none; 
+}
+
+.DogFoodTableHead{
+    border-bottom:5px solid;
+}
+
+.DogFoodTableHead > th {
+    background-color: coral;
+    border-block: hidden;
+
+}
+
+.DogFoodTableHead > td:last-child{
+    border-right:none; 
+}
+
+.DogFoodsList:last-child{
+    border-bottom:none; 
+}
+
+.ReviewTable {
+    display: inline-block;
+    border: 5px solid;
+    background-color: white;
+}
+
+.ReviewsList {
+    border-bottom: dashed;
+}
+
+.ReviewsList > td {
+        justify-items: center;
+        border-right: dashed; 
+    }
+
+
+.ReviewTableHead   {
+    justify-items: center; 
+    border-bottom: 5px solid;
+  
+}
+
+.ReviewTableHead > th {
+    border-right: 5px solid; 
+}
+
+.ReviewTableHead > th:last-child {
+    border-right:none; 
+}
+
+.ReviewsList:last-child {
+    border-bottom: none;
+}
+
+.ReviewsList > td:last-child {
+    border-right:none; 
+}
+
+.footer {
+    margin-top:850px; 
+    position:absolute; 
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color:white;
+    opacity:1000;
+}
+
+#treatcount {
+    margin-top: 100px;
+    display: table;
+    margin: auto;
+    font-size: 30px;
+    color: aliceblue;
+    background-image: radial-gradient(rgba(62, 29, 0, 0.992),rgb(89, 50, 2));
+    border-radius: 10%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+#main {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 15px;
+    align-items: center;
+    background-color:peru;
+    border-radius:900px;
+    width:600px; 
+}
+
+#multi {
+    align-items: center;
+    justify-content: center;
+}
+
+#dogbone{
+    width: 300px; 
+    width: 300px; 
+
+}
+
+.row {
+    background-color: white;
+    width: 250px; 
+    border-radius:100px; 
+}
+
+ul {
+    background-color: white;
+    width: 600px; 
+}
+
+.misfits {
+    float: left;
+    margin-left: 25px;
+    font-size: 50px;
+    background-color: dimgray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 750px;
+    border-radius: 25px;
+    background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}

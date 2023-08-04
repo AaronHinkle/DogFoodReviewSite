@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+
+    <div id="treatcount">Treats:</div>
+   
+    <br>
+    <container id="main">
+        <img id="dogbone" src="~/css/dogbone.jpg"></img>
+        <div id="clicks-per"> Clicks per second: 0</div>
+        <div id="clicks-per"> Clicks per second: 0</div>
+        <div id="auto-click-price"> AutoClicker price: 100 treats</div>
+        <br>
+        <button id="auto-click-purchase"> auto click purchase</button>
+        <br>
+
+        <div id="treatsPerClick">You have 0 multipliers</div>
+        <div id="multiplierPerClick">You have 1 treat per click</div>
+        <div id="multiplier-price">Multiplier price: 10 treats </div>
+        <br>
+
+        <button id=multiply-click-purchase>Multiplier purchase</button>
+        <br>
+        <br>
+        <br>
+        <button id="reset"> Reset the game! </button>
+    </container>
+
+    <br>
+    <br>
+    <script src="~/js/DogBoneJS.js"></script>
+
+</body>
+</html>
